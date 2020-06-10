@@ -21,7 +21,12 @@ time, mark, audio, video {
 }
 
 /* Beginning of my CSS*/
-
+nav {
+	display: flex;
+	justify-content: space-around;
+	line-height: 1;
+	color: white;
+}
 h1 {
 	font-family: 'Gaegu', cursive;
 	margin: 20px 0;
@@ -44,36 +49,40 @@ p {font-size: 16px;
 .photo { display: flex;}
 	
 .plan {margin: 0 10px;
-		color: white;
 		border: 1px solid lightgray;
 		padding: 20px;
 		display: inline-block;
 		border-radius: 20px;
 		text-decoration: none;
 		margin-bottom: 20px;
-		background-color: #FF764E;}
-
+		background-color: #FF764E;
+		color: white;}
 .learn {margin: 0 10px;
 		border: 1px solid lightgray;
 		padding: 20px;
 		display: inline-block;
 		border-radius: 20px;
-		color: white;
+		
 		text-decoration: none;
 		margin-bottom: 20px;
-		background-color:#5ED3EB;}	
+		background-color:#5ED3EB; 
+		color: white;}	
 .get {margin: 0 10px;
 		border: 1px solid lightgray;
 		padding: 20px;
 		display: inline-block;
 		border-radius: 20px;
-		color: white;
+		
 		text-decoration: none;
 		margin-bottom: 20px;
-		background-color:#FFCD69;}
+		background-color:#FFCD69; 
+		color: white;}
 
 .image {
 	border-radius: 30px;
-	width: 25%;
-	background-color: #F87B99;
-	border-top: 1px dashed white;}
+	width: 20%;
+	display: inline-block;
+  flex-wrap: wrap;
+  margin-left: 40%;
+	background-color: white;
+	border-top: 1px white;}
