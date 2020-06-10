@@ -22,10 +22,14 @@ time, mark, audio, video {
 
 /* Beginning of my CSS*/
 
-.title h1 {
+h1 {
 	font-family: 'Gaegu', cursive;
 	margin: 20px 0;
 	font-size: 60px;text-Align: center;}
+	p {font-size: 16px;
+		font-family: roboto;
+		padding: 10px;
+		line-height: 1.4;}
  .topper {margin: 0 10px; 
 	color: white;
 	border: 1px solid lightgray;
