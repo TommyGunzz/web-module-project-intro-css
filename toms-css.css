@@ -26,11 +26,11 @@ h1 {
 	font-family: 'Gaegu', cursive;
 	margin: 20px 0;
 	font-size: 60px;text-Align: center;}
-	p {font-size: 16px;
+p {font-size: 16px;
 		font-family: roboto;
 		padding: 10px;
 		line-height: 1.4;}
- .topper {margin: 0 10px; 
+.topper {margin: 0 10px; 
 	color: white;
 	border: 1px solid lightgray;
 	padding: 20px;
@@ -41,9 +41,9 @@ h1 {
 	margin-bottom: 20px;
 	background-color: white;}
 
-	.photo { display: flex;}
+.photo { display: flex;}
 	
-	.plan {margin: 0 10px;
+.plan {margin: 0 10px;
 		color: white;
 		border: 1px solid lightgray;
 		padding: 20px;
@@ -53,7 +53,7 @@ h1 {
 		margin-bottom: 20px;
 		background-color: #FF764E;}
 
-	.learn {margin: 0 10px;
+.learn {margin: 0 10px;
 		border: 1px solid lightgray;
 		padding: 20px;
 		display: inline-block;
@@ -62,7 +62,7 @@ h1 {
 		text-decoration: none;
 		margin-bottom: 20px;
 		background-color:#5ED3EB;}	
-	.get {margin: 0 10px;
+.get {margin: 0 10px;
 		border: 1px solid lightgray;
 		padding: 20px;
 		display: inline-block;
@@ -71,3 +71,9 @@ h1 {
 		text-decoration: none;
 		margin-bottom: 20px;
 		background-color:#FFCD69;}
+
+.image {
+	border-radius: 30px;
+	width: 25%;
+	background-color: #F87B99;
+	border-top: 1px dashed white;}
